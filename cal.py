@@ -2,12 +2,7 @@
 
 # addition function
 
-"""
-def donothing():
-    pass
 
-
-"""
 from tkinter import *
 from tkinter import messagebox
 
@@ -18,7 +13,6 @@ def how():
     root = Tk()
     root.title("how to use")
     root.geometry("1360x768")
-    root.wm_iconbitmap('C:/Users/Mukesh/Downloads/Ampeross-Smooth-Uplay.ico')
     f =  Frame(root, height=768, width=1360, bg="pink")
     f.propagate(0)
     f.pack()
@@ -219,7 +213,6 @@ def subtract():
 root = Tk()
 root.title("calculator")
 root.geometry("1360x768")
-root.wm_iconbitmap('C:/Users/Mukesh/Downloads/Dakirby309-Windows-8-Metro-Apps-Calculator-Metro.ico')
 f = Frame(root, height=700, width=1360, bg='pink')
 f.propagate(-1)
 f.pack()
